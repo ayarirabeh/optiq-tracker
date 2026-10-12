@@ -1,0 +1,699 @@
+{
+ "updated": "2026-10-12 14:53 ET",
+ "cap": 1000,
+ "benchmarkNewSport": 959.31,
+ "sources": [
+  {
+   "name": "Brossard Cadillac",
+   "url": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "status": "ok",
+   "count": 3,
+   "at": "2026-10-12 14:53 ET"
+  },
+  {
+   "name": "Mont-Royal Cadillac",
+   "url": "https://www.montroyalcadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "status": "ok",
+   "count": 1,
+   "at": "2026-10-12 14:53 ET"
+  },
+  {
+   "name": "Le Relais Cadillac",
+   "url": "https://www.lerelaiscadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
+   "status": "ok",
+   "count": 1,
+   "at": "2026-10-12 14:53 ET"
+  },
+  {
+   "name": "Cadillac West Island",
+   "url": "https://www.cadillacwestisland.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "status": "ok",
+   "count": 0,
+   "at": "2026-10-12 14:53 ET"
+  },
+  {
+   "name": "Montplaisir Cadillac",
+   "url": "https://www.montplaisircadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
+   "status": "ok",
+   "count": 1,
+   "at": "2026-10-12 14:53 ET"
+  },
+  {
+   "name": "Kijiji Autos",
+   "url": "https://www.kijiji.ca/b-autos-camions/quebec/cadillac-optiq/k0c174l9001?for-sale-by=ownr",
+   "status": "ok",
+   "count": 0,
+   "at": "2026-10-12 14:53 ET",
+   "note": "0 annonce Optiq trouvée"
+  },
+  {
+   "name": "Kijiji (lease takeover)",
+   "url": "https://www.kijiji.ca/b-quebec/cadillac-optiq-lease-takeover/k0l9001",
+   "status": "ok",
+   "count": 0,
+   "at": "2026-10-12 14:53 ET",
+   "note": "0 annonce Optiq trouvée"
+  },
+  {
+   "name": "AutoHebdo",
+   "url": "https://www.autohebdo.net/lst?atype=C&make=Cadillac&model=Optiq&prv=Quebec",
+   "status": "ok",
+   "count": 0,
+   "at": "2026-10-12 14:53 ET",
+   "note": "0 annonce Optiq trouvée"
+  },
+  {
+   "name": "Cadillac Canada (offres)",
+   "url": "https://www.cadillac.ca/fr/offres-actuelles",
+   "status": "indisponible",
+   "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "at": "2026-10-12 14:53 ET"
+  }
+ ],
+ "items": [
+  {
+   "id": "new|https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943|Optiq Luxe haut de gamme TI|178.91",
+   "type": "neuf",
+   "source": "Brossard Cadillac",
+   "city": "Brossard",
+   "year": 2027,
+   "trim": "Optiq Luxe haut de gamme TI",
+   "trimClass": "Luxe",
+   "termMonths": 48,
+   "kmPerYear": 20000,
+   "payment": {
+    "freq": "à la semaine",
+    "preTax": 178.91,
+    "taxIncl": 205.71
+   },
+   "monthlyTaxIncl": 891.41,
+   "taxesIncluded": true,
+   "down": 0.0,
+   "dueAtSigning": 256.92,
+   "residual": 31615.48,
+   "rate": "3,9 %",
+   "expiry": null,
+   "link": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "status": "actif",
+   "score": 64,
+   "label": "Correct",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 15.5,
+     "why": "891 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 5.7,
+     "why": "≈ 42 788 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 15,
+     "why": "20000 km/an"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 5.0,
+     "why": "Luxe"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "48 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 10,
+     "why": "aucun drapeau connu"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 6.7,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "À considérer",
+   "avis": "Optiq Luxe haut de gamme TI 2027 à ~891 $/mois taxes incluses. pas une version Sport (secondaire)."
+  },
+  {
+   "id": "new|https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943|Optiq-V Série V TI|267.5",
+   "type": "neuf",
+   "source": "Brossard Cadillac",
+   "city": "Brossard",
+   "year": 2026,
+   "trim": "Optiq-V Série V TI",
+   "trimClass": "V",
+   "termMonths": 48,
+   "kmPerYear": 20000,
+   "payment": {
+    "freq": "à la semaine",
+    "preTax": 267.5,
+    "taxIncl": 307.56
+   },
+   "monthlyTaxIncl": 1332.76,
+   "taxesIncluded": true,
+   "down": 0.0,
+   "dueAtSigning": 358.77,
+   "residual": 35859.56,
+   "rate": "3,9 %",
+   "expiry": null,
+   "link": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "status": "actif",
+   "score": 37,
+   "label": "Mauvais deal",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 0,
+     "why": "1333 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 0,
+     "why": "≈ 63 972 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 15,
+     "why": "20000 km/an"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "V"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "48 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 10,
+     "why": "aucun drapeau connu"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 0,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "Passer",
+   "avis": "Optiq-V Série V TI 2026 à ~1333 $/mois taxes incluses. pas une version Sport (secondaire). au-dessus de ton plafond."
+  },
+  {
+   "id": "new|https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943|Optiq-V Série V TI|292.02",
+   "type": "neuf",
+   "source": "Brossard Cadillac",
+   "city": "Brossard",
+   "year": 2027,
+   "trim": "Optiq-V Série V TI",
+   "trimClass": "V",
+   "termMonths": 48,
+   "kmPerYear": 20000,
+   "payment": {
+    "freq": "à la semaine",
+    "preTax": 292.02,
+    "taxIncl": 335.75
+   },
+   "monthlyTaxIncl": 1454.92,
+   "taxesIncluded": true,
+   "down": 0.0,
+   "dueAtSigning": 386.96,
+   "residual": 31273.62,
+   "rate": "3,9 %",
+   "expiry": null,
+   "link": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "status": "actif",
+   "score": 37,
+   "label": "Mauvais deal",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 0,
+     "why": "1455 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 0,
+     "why": "≈ 69 836 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 15,
+     "why": "20000 km/an"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "V"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "48 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 10,
+     "why": "aucun drapeau connu"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 0,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "Passer",
+   "avis": "Optiq-V Série V TI 2027 à ~1455 $/mois taxes incluses. pas une version Sport (secondaire). au-dessus de ton plafond."
+  },
+  {
+   "id": "new|https://www.montroyalcadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943|Optiq Sport TI|192.54",
+   "type": "neuf",
+   "source": "Mont-Royal Cadillac",
+   "city": "Montréal",
+   "year": 2026,
+   "trim": "Optiq Sport TI",
+   "trimClass": "Sport",
+   "termMonths": 48,
+   "kmPerYear": 20000,
+   "payment": {
+    "freq": "à la semaine",
+    "preTax": 192.54,
+    "taxIncl": 221.38
+   },
+   "monthlyTaxIncl": 959.31,
+   "taxesIncluded": true,
+   "down": 0.0,
+   "dueAtSigning": 572.09,
+   "residual": 25928.57,
+   "rate": "3,9 %",
+   "expiry": null,
+   "link": "https://www.montroyalcadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
+   "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "status": "actif",
+   "score": 62,
+   "label": "Correct",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 11.4,
+     "why": "959 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 4.7,
+     "why": "≈ 46 047 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 15,
+     "why": "20000 km/an"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 10,
+     "why": "Sport"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "48 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 10,
+     "why": "aucun drapeau connu"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 5.0,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "À considérer",
+   "avis": "Optiq Sport TI 2026 à ~959 $/mois taxes incluses."
+  },
+  {
+   "id": "new|https://www.lerelaiscadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945|Optiq Luxe TI|192.43",
+   "type": "neuf",
+   "source": "Le Relais Cadillac",
+   "city": "Montréal",
+   "year": 2026,
+   "trim": "Optiq Luxe TI",
+   "trimClass": "Luxe",
+   "termMonths": 48,
+   "kmPerYear": 16000,
+   "payment": {
+    "freq": "à la semaine",
+    "preTax": 192.43,
+    "taxIncl": 221.24
+   },
+   "monthlyTaxIncl": 958.71,
+   "taxesIncluded": true,
+   "down": 0.0,
+   "dueAtSigning": 597.82,
+   "residual": 25928.57,
+   "rate": "3,9 %",
+   "expiry": null,
+   "link": "https://www.lerelaiscadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
+   "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "status": "actif",
+   "score": 54,
+   "label": "Correct",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 11.5,
+     "why": "959 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 4.7,
+     "why": "≈ 46 018 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 12.0,
+     "why": "16000 km/an"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 5.0,
+     "why": "Luxe"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "48 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 10,
+     "why": "aucun drapeau connu"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 5.0,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "Passer",
+   "avis": "Optiq Luxe TI 2026 à ~959 $/mois taxes incluses. pas une version Sport (secondaire)."
+  },
+  {
+   "id": "new|https://www.montplaisircadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945|Optiq Luxe TI|191.59",
+   "type": "neuf",
+   "source": "Montplaisir Cadillac",
+   "city": "Drummondville",
+   "year": 2026,
+   "trim": "Optiq Luxe TI",
+   "trimClass": "Luxe",
+   "termMonths": 48,
+   "kmPerYear": 20000,
+   "payment": {
+    "freq": "à la semaine",
+    "preTax": 191.59,
+    "taxIncl": 220.28
+   },
+   "monthlyTaxIncl": 954.55,
+   "taxesIncluded": true,
+   "down": 0.0,
+   "dueAtSigning": 570.99,
+   "residual": 25325.58,
+   "rate": "3,9 %",
+   "expiry": null,
+   "link": "https://www.montplaisircadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
+   "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "status": "actif",
+   "score": 58,
+   "label": "Correct",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 11.7,
+     "why": "955 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 4.7,
+     "why": "≈ 45 818 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 15,
+     "why": "20000 km/an"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 5.0,
+     "why": "Luxe"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 6.0,
+     "why": "48 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 10,
+     "why": "aucun drapeau connu"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 5.1,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "À considérer",
+   "avis": "Optiq Luxe TI 2026 à ~955 $/mois taxes incluses. pas une version Sport (secondaire)."
+  },
+  {
+   "id": "lb|607879",
+   "source": "LeaseBusters",
+   "type": "financement (annonce concessionnaire)",
+   "link": "https://www.leasebusters.com/details/607879/2026-Cadillac-OPTIQ",
+   "aliveMarker": "OPTIQ",
+   "year": 2026,
+   "trim": "Optiq Sport (4dr Sport)",
+   "city": "Jonquière, QC",
+   "monthly": 914.0,
+   "taxesIncluded": null,
+   "remainingMonths": 84,
+   "kmRemaining": null,
+   "odometer": 231,
+   "sellerIncentive": 0,
+   "transferFee": null,
+   "riskFlags": [
+    "financement 84 mois (prêt), pas un transfert de location",
+    "annonce de concessionnaire (Arnold Chevrolet Cadillac), pas un particulier",
+    "taxes non précisées"
+   ],
+   "trimClass": "Sport",
+   "status": "actif",
+   "effMonthly": 914.0,
+   "monthlyTaxIncl": 914.0,
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "score": 42,
+   "label": "Mauvais deal",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 14.2,
+     "why": "914 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 0,
+     "why": "≈ 76 776 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 7.5,
+     "why": "donnée manquante"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 10,
+     "why": "Sport"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 3.0,
+     "why": "84 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 1.0,
+     "why": "financement 84 mois (prêt), pas un transfert de location; annonce de concessionnaire (Arnold Chevrolet Cadillac), pas un particulier; taxes non précisées"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 6.1,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [
+    "Kilométrage vs besoin ~20 000 km/an"
+   ],
+   "action": "Passer",
+   "avis": "Optiq Sport (4dr Sport) 2026 à ~914 $/mois taxes incluses. financement 84 mois (prêt), pas un transfert de location. annonce de concessionnaire (Arnold Chevrolet Cadillac), pas un particulier. taxes non précisées. données manquantes : Kilométrage vs besoin ~20 000 km/an."
+  },
+  {
+   "id": "at|c59aa2da",
+   "source": "AutoTrader.ca (particulier)",
+   "link": "https://www.autotrader.ca/offers/cadillac-optiq-sport-electric-black-cat_ma17gr202026-c59aa2da-cba0-4900-ae63-0e6b140c584c",
+   "aliveMarker": "Optiq",
+   "year": 2025,
+   "trim": "Optiq AWD (URL indique Sport, à confirmer)",
+   "city": "Oakville, ON",
+   "monthly": 862.55,
+   "taxesIncluded": null,
+   "remainingMonths": 7,
+   "kmRemaining": 14172,
+   "odometer": 25828,
+   "sellerIncentive": 0,
+   "transferFee": null,
+   "riskFlags": [
+    "Ontario : transfert interprovincial GM Financial à confirmer",
+    "seulement ~7 mois restants (fin avril 2027)",
+    "frais de transfert GM Financial non précisés",
+    "taxes non précisées (paiement probablement avant taxes)"
+   ],
+   "type": "transfert",
+   "trimClass": "Sport",
+   "status": "actif",
+   "effMonthly": 862.55,
+   "monthlyTaxIncl": 862.55,
+   "firstSeen": "2026-10-12 14:44 ET",
+   "lastSeen": "2026-10-12 14:53 ET",
+   "score": 68,
+   "label": "Bon deal",
+   "criteria": [
+    {
+     "name": "Coût mensuel effectif vs plafond",
+     "w": 30,
+     "pts": 17.2,
+     "why": "863 $/mois effectif"
+    },
+    {
+     "name": "Coût total restant",
+     "w": 15,
+     "pts": 15,
+     "why": "≈ 6 038 $ engagés"
+    },
+    {
+     "name": "Kilométrage vs besoin ~20 000 km/an",
+     "w": 15,
+     "pts": 15,
+     "why": "14172 km restants"
+    },
+    {
+     "name": "Version (Sport favorisée)",
+     "w": 10,
+     "pts": 10,
+     "why": "Sport"
+    },
+    {
+     "name": "Durée restante (idéal 18–36 mois)",
+     "w": 10,
+     "pts": 3.0,
+     "why": "7 mois"
+    },
+    {
+     "name": "Frais de transfert / état / risques",
+     "w": 10,
+     "pts": 0,
+     "why": "Ontario : transfert interprovincial GM Financial à confirmer; seulement ~7 mois restants (fin avril 2027); frais de transfert GM Financial non précisés; taxes non précisées (paiement probablement avant taxes)"
+    },
+    {
+     "name": "Vs meilleure location neuve",
+     "w": 10,
+     "pts": 7.4,
+     "why": "repère neuf 959 $/mois"
+    }
+   ],
+   "missing": [],
+   "action": "À considérer",
+   "avis": "Optiq AWD (URL indique Sport, à confirmer) 2025 à ~863 $/mois taxes incluses. Ontario : transfert interprovincial GM Financial à confirmer. seulement ~7 mois restants (fin avril 2027). frais de transfert GM Financial non précisés. taxes non précisées (paiement probablement avant taxes)."
+  }
+ ],
+ "top": [
+  "at|c59aa2da",
+  "new|https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943|Optiq Luxe haut de gamme TI|178.91",
+  "new|https://www.montroyalcadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943|Optiq Sport TI|192.54"
+ ]
+}

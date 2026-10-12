@@ -1,0 +1,63 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Optiq Tracker · Ayari</title><style>
+:root{--n:#0f2747;--b:#2453a6;--g:#f4f6fa;--t:#1b2533}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 -apple-system,system-ui,Segoe UI,Roboto,sans-serif;color:var(--t);background:#fff}
+header{background:var(--n);color:#fff;padding:18px 16px}header h1{margin:0;font-size:20px}header p{margin:4px 0 0;opacity:.8;font-size:13px}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #e3e7ef;display:flex;overflow-x:auto;z-index:5}
+nav a{padding:12px 14px;color:var(--n);text-decoration:none;white-space:nowrap;font-weight:600;font-size:14px}nav a.on{border-bottom:3px solid var(--b)}
+main{max-width:900px;margin:auto;padding:16px}section{display:none}section.on{display:block}
+.card{background:#fff;border:1px solid #e3e7ef;border-radius:12px;padding:14px;margin:12px 0;box-shadow:0 1px 3px rgba(15,39,71,.05)}
+.rec{background:var(--g);border-left:4px solid var(--b)}h2{color:var(--n);font-size:18px}h3{margin:0 0 4px;font-size:16px;color:var(--n)}
+.badge{display:inline-block;padding:2px 9px;border-radius:99px;font-size:12px;font-weight:700;color:#fff}
+.Excellent{background:#137a3f}.Bon{background:#3a9a5b}.Correct{background:#c08a00}.Mauvais{background:#c4511f}.Éviter{background:#9b1c1c}
+.act{font-size:12px;font-weight:700;color:var(--b)}.muted{color:#66728a;font-size:13px}.price{font-size:20px;font-weight:700;color:var(--n)}
+.f{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.f label{background:var(--g);padding:6px 10px;border-radius:99px;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #eef;padding:5px;text-align:left}
+details summary{cursor:pointer;color:var(--b);font-weight:600}a{color:var(--b)}.warn{color:#c4511f;font-weight:600}
+</style></head><body>
+<header><h1>Cadillac OPTIQ · Tracker</h1><p>Focus Sport · plafond 1 000 $/mois · <span id="upd"></span></p></header>
+<nav><a href="#reco" class="on">Recommandation</a><a href="#neuf">Locations neuves</a><a href="#transfert">Transferts</a><a href="#fiche">Fiche auto</a><a href="#bareme">Barème</a><a href="#sources">Sources</a></nav>
+<main>
+<section id="reco" class="on"><h2>Ma recommandation</h2><div id="top"></div></section>
+<section id="neuf"><h2>Locations neuves</h2><div class="f"><label><input type="checkbox" class="fs"> Sport seulement</label></div><div id="neufL"></div><details><summary>Au-dessus du plafond</summary><div id="neufO"></div></details></section>
+<section id="transfert"><h2>Transferts de location (privé)</h2><div class="f"><label><input type="checkbox" class="fs"> Sport seulement</label><select id="src"><option value="">Toutes sources</option></select></div><div id="trL"></div><details><summary>Au-dessus du plafond / retirés</summary><div id="trO"></div></details>
+<p class="muted">Facebook Marketplace : ajouté via marketplace.json (source « Marketplace »).</p></section>
+<section id="fiche"><h2>Fiche auto — OPTIQ</h2>
+<div class="card"><h3>Ma note : 7 / 10</h3><p>Excellent rapport équipement/prix dans le luxe électrique compact (Super Cruise de série, NACS natif, 488–510 km RNCan), mais recharge rapide modeste pour le prix, valeur résiduelle incertaine (Roulez vert finit le 31 déc. 2026), et petit réseau Cadillac sur la Rive-Sud (Brossard). Une location courte ou un transfert est plus sensé qu'un achat.</p></div>
+<div class="card"><h3>C'est quoi</h3><p>VUS compact électrique 5 places, batterie 85 kWh. 2025 : AWD bimoteur seulement. 2026–2027 : propulsion (315 ch, 510 km) de série, AWD bimoteur (440 ch, 488 km) en option, Optiq‑V AWD (519 ch, 447 km). Versions : Luxe, Sport, Luxe haut de gamme, Sport haut de gamme, V (au Canada ; aux É.-U. Sport 1/2/3 ≈ Sport / Sport haut de gamme).</p>
+<p><b>Sport vs Luxe</b> : style noir/sport, roues et calibrage différents ; même batterie. Les « haut de gamme » ajoutent le chargeur 19,2 kW de série (11,5 kW sinon). <b>Recharge DC</b> : ~113 km d'autonomie ajoutés par heure selon le concessionnaire (puissance kW max à vérifier sur cadillac.ca). NACS natif : Superchargeurs Tesla sans adaptateur ; adaptateur CCS requis pour Electrify Canada/Circuit électrique — à confirmer s'il est fourni.</p>
+<p><b>Prix</b> : à partir d'environ 61 021 $ (Cadillac de Laval, annonce) ; Optiq‑V dès 82 220 $ (Brossard Cadillac). PDSF officiel : vérifier sur cadillac.ca (page inaccessible à notre robot). <b>Garantie</b> : 4 ans/80 000 km ; batterie 8 ans/160 000 km.</p>
+<p><b>Incitatifs 2026</b> : Roulez vert 2 000 $ (VÉ neuf immatriculé en 2026 ; location ≥48 mois = 100 %, 36–48 = 75 %). <span class="warn">Programme terminé le 31 décembre 2026 ; 0 $ en 2027.</span> Fédéral (iZEV) : pas de rabais actif constaté — à vérifier.</p></div>
+<div class="card"><h3>Points forts</h3><ul><li>Super Cruise de série, NACS natif</li><li>488–510 km RNCan, bon chargement (744 L)</li><li>Mensualités neuves ~890–960 $/mois TTC chez les concessionnaires du Québec, 0 $ comptant</li></ul>
+<h3>Points de vigilance</h3><ul><li>Rappel Transports Canada 2025564 (RA‑78379) : pneus Continental 21 po (date 4024) sur Optiq 2025–2026 — vérifier le NIV.</li><li>Autonomie hivernale : compter −25 à −35 % par grand froid (estimation générale VÉ).</li><li>Logiciel GM Ultium (Android Automotive, pas de CarPlay) : mises à jour à vérifier.</li><li>Valeur résiduelle et revente : marché VÉ de luxe volatil.</li><li>Transfert GM Financial : frais et approbation de crédit ; transfert souvent limité à la même province.</li><li>2025 = AWD seulement ; propulsion 2026 = meilleure autonomie mais moins de motricité l'hiver.</li></ul></div>
+<div class="card"><h3>Questions à poser</h3><p><b>Concessionnaire</b> : prix de vente en location exact, Roulez vert appliqué, frais admin, kms/an et coût du km excédentaire, valeur de rachat, date d'expiration de l'offre, adaptateur CCS inclus, rappel pneus fait.</p>
+<p><b>Cédant (transfert)</b> : frais de transfert GM Financial et qui les paie, mois et km restants exacts, valeur de rachat, incitatif comptant, usure/dommages, protection usure transférable, garantie restante, rappels faits, province du contrat.</p></div>
+<div class="card muted">Sources : <a href="https://www.quebec.ca/transports/transport-electrique/aide-financiere-vehicule-electrique/programme-roulez-vert">Roulez vert (Québec)</a> · <a href="https://recalls-rappels.canada.ca/en/alert-recall/transport-canada-recall-2025564-general-motors">Rappel TC 2025564</a> · <a href="https://www.brossardcadillac.ca/fr/nouvelles/afficher/guide-dachat-de-l-optiq-2026-744-l-de-chargement-9-configurations-et-une-seule-batterie-de-85-kwh/167323">Brossard Cadillac — guide (autonomies RNCan)</a> · <a href="https://www.lerelaiscadillac.com/fr/nouvelles/afficher/cadillac-optiq-2026-propulsion-a-510-km-ou-rouage-integral-que-choisir/168870">Le Relais Cadillac</a> · <a href="https://www.cadillac.ca/fr">cadillac.ca</a> · <a href="https://fcr-ccr.nrcan-rncan.gc.ca/fr">RNCan</a></div></section>
+<section id="bareme"><h2>Barème (/100)</h2><div class="card"><table><tr><th>Critère</th><th>Poids</th></tr><tr><td>Coût mensuel effectif TTC (comptant/incitatifs amortis) vs plafond 1 000 $ (≤650 $ = plein)</td><td>30</td></tr><tr><td>Coût total restant</td><td>15</td></tr><tr><td>Kilométrage restant vs ~20 000 km/an</td><td>15</td></tr><tr><td>Version (Sport > V > Luxe)</td><td>10</td></tr><tr><td>Durée restante (idéal 18–36 mois)</td><td>10</td></tr><tr><td>Frais de transfert / état / risques (−3 par drapeau)</td><td>10</td></tr><tr><td>Vs meilleure location neuve Sport</td><td>10</td></tr></table>
+<p>Transfert : mensualité effective = (mensualité × mois restants + frais de transfert − incitatif du cédant) / mois restants. Donnée manquante = note neutre (50 %) et signalée.</p>
+<p>≥80 Excellent deal · 65–79 Bon deal · 50–64 Correct · 35–49 Mauvais deal · &lt;35 À éviter. Action : Contacter vite / À considérer / Passer.</p></div></section>
+<section id="sources"><h2>Sources & statut</h2><div id="srcL"></div></section>
+</main><script>
+const $=s=>document.querySelector(s),fmt=n=>n==null?'—':Math.round(n).toLocaleString('fr-CA')+' $';let D;
+const cls=l=>l.split(' ')[0].replace('À','Éviter').replace('Éviter','Éviter');
+function card(i){const m=i.monthlyTaxIncl;return `<div class="card"><span class="badge ${l(i.label)}">${i.label} · ${i.score}</span> <span class="act">${i.action}</span>
+<h3>${i.trim} ${i.year} ${i.trimClass!=='Sport'?'<span class="muted">(secondaire)</span>':''}</h3>
+<div class="price">${fmt(m)}/mois <span class="muted">${i.taxesIncluded===true?'TTC':i.taxesIncluded===false?'avant taxes':'taxes non précisées'}${i.type!='neuf'?' · effectif':''}</span></div>
+<div class="muted">${i.source} · ${i.city||''} · ${i.termMonths?i.termMonths+' mois':''}${i.remainingMonths?i.remainingMonths+' mois restants':''} ${i.kmPerYear?'· '+i.kmPerYear+' km/an':''}${i.kmRemaining?'· '+i.kmRemaining+' km restants':''} ${i.down!=null?'· comptant '+fmt(i.down):''} ${i.dueAtSigning?'· dû à la signature '+fmt(i.dueAtSigning):''}</div>
+<p><b>Mon avis :</b> ${i.avis}</p><div class="muted">Vu : ${i.firstSeen} → ${i.lastSeen} · ${i.status} · expiration : ${i.expiry||'à vérifier'} · <a href="${i.link}" target="_blank">source</a></div>
+<details><summary>Détail du score</summary><table>${i.criteria.map(c=>`<tr><td>${c.name}</td><td>${c.pts}/${c.w}</td><td>${c.why}</td></tr>`).join('')}</table></details></div>`}
+function l(x){return x.startsWith('Excellent')?'Excellent':x.startsWith('Bon')?'Bon':x.startsWith('Correct')?'Correct':x.startsWith('Mauvais')?'Mauvais':'Éviter'}
+function render(){const sp=$('.fs:checked')!=null||false,src=$('#src').value;
+const ok=i=>(!document.querySelector('#neuf .fs').checked||i.trimClass==='Sport');
+const ok2=i=>(!document.querySelector('#transfert .fs').checked||i.trimClass==='Sport')&&(!src||i.source===src);
+const under=i=>i.status==='actif'&&i.monthlyTaxIncl!=null&&i.monthlyTaxIncl<=D.cap,srt=(a,b)=>b.score-a.score;
+const N=D.items.filter(i=>i.type==='neuf'&&ok(i)).sort(srt),T=D.items.filter(i=>i.type!=='neuf'&&ok2(i)).sort(srt);
+$('#neufL').innerHTML=N.filter(under).map(card).join('')||'<p class="muted">Aucune offre sous le plafond.</p>';$('#neufO').innerHTML=N.filter(i=>!under(i)).map(card).join('');
+$('#trL').innerHTML=T.filter(under).map(card).join('')||'<p class="muted">Aucun transfert sous le plafond.</p>';$('#trO').innerHTML=T.filter(i=>!under(i)).map(card).join('');}
+fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;$('#upd').textContent='Dernière mise à jour : '+d.updated;
+$('#top').innerHTML=d.top.length?d.top.map(id=>card(d.items.find(i=>i.id===id))).join(''):'<p>Aucune offre sous le plafond.</p>';
+[...new Set(d.items.filter(i=>i.type!=='neuf').map(i=>i.source))].forEach(s=>$('#src').innerHTML+=`<option>${s}</option>`);
+$('#srcL').innerHTML=d.sources.map(s=>`<div class="card"><b>${s.name}</b> — <span class="${s.status!=='ok'?'warn':''}">${s.status}</span> (${s.at}) ${s.count!=null?'· '+s.count+' trouvé(s)':''} ${s.note||s.error||''} <a href="${s.url}" target="_blank">lien</a></div>`).join('');render()});
+document.addEventListener('change',render);
+document.querySelectorAll('nav a').forEach(a=>a.onclick=e=>{e.preventDefault();document.querySelectorAll('nav a,section').forEach(x=>x.classList.remove('on'));a.classList.add('on');$(a.getAttribute('href')).classList.add('on')});
+</script></body></html>
