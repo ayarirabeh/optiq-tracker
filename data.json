@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18 19:51 ET",
+ "updated": "2026-10-19 08:46 ET",
  "cap": 1000,
  "benchmarkNewSport": 959.31,
  "sources": [
@@ -8,42 +8,42 @@
    "url": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "status": "ok",
    "count": 3,
-   "at": "2026-10-18 19:51 ET"
+   "at": "2026-10-19 08:46 ET"
   },
   {
    "name": "Mont-Royal Cadillac",
    "url": "https://www.montroyalcadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "status": "ok",
    "count": 1,
-   "at": "2026-10-18 19:51 ET"
+   "at": "2026-10-19 08:46 ET"
   },
   {
    "name": "Le Relais Cadillac",
    "url": "https://www.lerelaiscadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
    "status": "ok",
    "count": 1,
-   "at": "2026-10-18 19:51 ET"
+   "at": "2026-10-19 08:46 ET"
   },
   {
    "name": "Cadillac West Island",
    "url": "https://www.cadillacwestisland.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "status": "ok",
    "count": 0,
-   "at": "2026-10-18 19:51 ET"
+   "at": "2026-10-19 08:46 ET"
   },
   {
    "name": "Montplaisir Cadillac",
    "url": "https://www.montplaisircadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
    "status": "ok",
    "count": 1,
-   "at": "2026-10-18 19:51 ET"
+   "at": "2026-10-19 08:46 ET"
   },
   {
    "name": "Kijiji Autos",
    "url": "https://www.kijiji.ca/b-autos-camions/quebec/cadillac-optiq/k0c174l9001?for-sale-by=ownr",
    "status": "ok",
    "count": 0,
-   "at": "2026-10-18 19:51 ET",
+   "at": "2026-10-19 08:46 ET",
    "note": "0 annonce Optiq trouvée"
   },
   {
@@ -51,7 +51,7 @@
    "url": "https://www.kijiji.ca/b-quebec/cadillac-optiq-lease-takeover/k0l9001",
    "status": "ok",
    "count": 0,
-   "at": "2026-10-18 19:51 ET",
+   "at": "2026-10-19 08:46 ET",
    "note": "0 annonce Optiq trouvée"
   },
   {
@@ -59,7 +59,7 @@
    "url": "https://www.autohebdo.net/lst?atype=C&make=Cadillac&model=Optiq&prv=Quebec",
    "status": "ok",
    "count": 0,
-   "at": "2026-10-18 19:51 ET",
+   "at": "2026-10-19 08:46 ET",
    "note": "0 annonce Optiq trouvée"
   },
   {
@@ -67,7 +67,7 @@
    "url": "https://www.cadillac.ca/fr/offres-actuelles",
    "status": "indisponible",
    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
-   "at": "2026-10-18 19:51 ET"
+   "at": "2026-10-19 08:46 ET"
   }
  ],
  "items": [
@@ -96,7 +96,7 @@
    "link": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "status": "actif",
    "score": 64,
    "label": "Correct",
@@ -173,7 +173,7 @@
    "link": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "status": "actif",
    "score": 37,
    "label": "Mauvais deal",
@@ -250,7 +250,7 @@
    "link": "https://www.brossardcadillac.ca/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "status": "actif",
    "score": 37,
    "label": "Mauvais deal",
@@ -327,7 +327,7 @@
    "link": "https://www.montroyalcadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-sport-2026-id31943",
    "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "status": "actif",
    "score": 62,
    "label": "Correct",
@@ -404,7 +404,7 @@
    "link": "https://www.lerelaiscadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
    "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "status": "actif",
    "score": 54,
    "label": "Correct",
@@ -481,7 +481,7 @@
    "link": "https://www.montplaisircadillac.com/fr/catalogue-neuf/cadillac/cadillac-optiq-luxe-2026-id31945",
    "note": "Offre affichée par le concessionnaire (prix annoncé, inclut transport/préparation et Roulez vert selon la mention légale). Date d'expiration non affichée : à vérifier.",
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "status": "actif",
    "score": 58,
    "label": "Correct",
@@ -559,7 +559,7 @@
    "effMonthly": 914.0,
    "monthlyTaxIncl": 914.0,
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "score": 42,
    "label": "Mauvais deal",
    "criteria": [
@@ -639,7 +639,7 @@
    "effMonthly": 862.55,
    "monthlyTaxIncl": 862.55,
    "firstSeen": "2026-10-12 14:44 ET",
-   "lastSeen": "2026-10-18 19:51 ET",
+   "lastSeen": "2026-10-19 08:46 ET",
    "score": 68,
    "label": "Bon deal",
    "criteria": [
